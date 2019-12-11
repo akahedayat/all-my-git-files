@@ -1,0 +1,13 @@
+package Tutorial_1;
+
+public class Practice_ifS {
+	public static void main(String[] args) {
+
+		int hamidAge=23;
+		 int rahaimAge = 20;
+		boolean compare = hamidAge > rahaimAge;
+	
+		System.out.println("Is that:" + compare + ":ok thank you.  ");
+	}
+
+}

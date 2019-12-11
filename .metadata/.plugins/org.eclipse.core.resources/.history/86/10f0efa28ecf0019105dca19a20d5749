@@ -1,0 +1,49 @@
+package second_code;
+
+public class Numeric {
+static int a=60;
+static int b=30;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	String u="hedayat";
+	System.out.println(u);
+	System.out.println(u.length());
+/*creat the new method other thatn main method for each arithmatic
+	Declare two numbers and creat the new method other than main method for each arithmatic operator just use thos two
+	numbers and do following
+	1-addition
+	2-substraction
+	3-multiplicaion
+	4-devision*/
+	
+	int z=10;
+	int w=20;
+	int total=z+w;
+	System.out.println(total);
+	
+	addition();
+	substruction();
+	multiplicatin();
+	devision();}
+	
+	public static void addition(){
+		System.out.println(a+b);
+	}
+	
+   public static void substruction(){
+   System.out.println(a-b);
+   }
+	private static void devision() {
+		System.out.println(a/b);
+		
+	}
+
+	private static void multiplicatin() {
+		System.out.println(a*b);
+		
+	}
+
+	
+}
+   
+

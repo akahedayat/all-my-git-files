@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Function" parallel="tests" thread-count="2">
+<test name="login">
+<parameter name="browser" value="chrome"></parameter> <!-- this is the syntax -->
+<classes>
+<!-- <class name="tstNG.First_testNG_framework"></class>-->
+ <class name="tstNG.data_provider"></class>
+</classes>
+</test>
+<test name="computer">
+<parameter name="browser" value="firefox"></parameter>
+<classes>
+<class name="tstNG.data_provider"></class>
+</classes>
+</test>
+</suite>

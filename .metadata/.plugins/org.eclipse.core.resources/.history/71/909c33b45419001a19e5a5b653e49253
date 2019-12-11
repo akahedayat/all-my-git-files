@@ -1,0 +1,15 @@
+package Spotrs;
+
+public class kangfuSection {
+	String mainSection = "kicking";
+
+	public static void main(String[] args) {
+		kangfuSection kick = new kangfuSection();
+		
+		System.out.println(kick.mainSection);
+		
+		
+ 
+	}
+
+}

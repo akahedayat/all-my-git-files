@@ -1,0 +1,21 @@
+package OOPS_SECOND_TIME;
+
+public class Fish extends Animal {
+	void move() {
+		System.out.println("fish moves by swimming");
+		
+	}
+	 
+	void eat() {
+		System.out.println("Fish eat seafood");
+	}
+	public static void main(String[] args) {
+	Animal obj = new  Fish ();
+	
+	obj.move();
+	obj.eat();
+	obj.label();
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package Spotrs;
+
+public class BoxingSection extends Trainner{
+	String mainSection = "Boxing";
+	public static void main(String[] args) {
+		BoxingSection box = new BoxingSection();
+		System.out.println(box.workOut);
+		System.out.println(box.workOut1);
+		box.task();
+		System.out.println(box.mainSection);
+	
+		
+	}
+
+}

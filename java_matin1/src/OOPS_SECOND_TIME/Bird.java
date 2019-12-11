@@ -1,0 +1,18 @@
+package OOPS_SECOND_TIME;
+
+public class Bird extends Animal { 
+	void move() {
+		System.out.println("Birds move by flying");
+		
+	}
+	 void eat() {
+		 System.out.println("Birds eat birds food");
+	 }
+	 public static void main(String[] args) {
+		Animal obj = new Bird();
+		obj.move();
+		obj.eat();
+		obj.label();
+	}
+
+}

@@ -1,0 +1,20 @@
+package Tutorial_1;
+
+public class Practice_ifS {
+	public static void main(String[] args) {
+		int jamilAge=19;
+		int faqirAge=21;
+		boolean ages=jamilAge>faqirAge;
+		System.out.println(ages);
+		
+		
+		 int x=50;
+		 int y=50;
+		 if(x<=y) {
+			 System.out.println("Hello world");
+			 
+		 }
+				 
+
+	}
+}

@@ -1,0 +1,15 @@
+package second_code;
+
+public class program1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String u="hadayatullah";
+		
+System.out.println("hadatatullah");
+System.out.println(u);
+System.out.println(u.length());
+	}
+
+
+}

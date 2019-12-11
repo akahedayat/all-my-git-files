@@ -1,0 +1,7 @@
+package OPPS_Inheritance;
+
+public class PhysicsTeacher extends Teacher {
+	 
+	}
+
+

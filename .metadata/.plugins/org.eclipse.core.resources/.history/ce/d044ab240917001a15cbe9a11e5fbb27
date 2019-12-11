@@ -1,0 +1,22 @@
+package OPPS_Inheritance;
+
+public class ALL_CLASS {
+
+	public static void main(String[] args) {
+		PhysicsTeacher physic = new PhysicsTeacher();
+		System.out.println(physic.designation);
+		System.out.println(physic.collegeName);
+		 physic.jobs();
+		 System.out.println(physic.mainsub);
+ System.out.println("=====================================");
+ 
+ EnglishTeacher Eng = new EnglishTeacher();
+	
+	System.out.println(Eng.designation);
+	System.out.println(Eng.collegeName);
+	Eng.jobs();
+	System.out.println(Eng.mainSubject);
+System.out.println("=========================================");
+	}
+
+}

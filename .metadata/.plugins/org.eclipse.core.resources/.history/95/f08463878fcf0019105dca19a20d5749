@@ -1,0 +1,39 @@
+package second_code;
+
+public class program1 {
+	
+	
+
+
+	public static void main(String[] args)
+	{
+		
+	}
+		// TODO Auto-generated method stub
+		/*String a="Hazel Hill";
+		String k="United State of America";
+		System.out.println(k);
+		System.out.println(k.length());
+System.out.println(a);
+System.out.println(a.length());*/
+
+	int j=6;
+	int n=5;
+	
+	{
+		System.out.println("The restult is ");
+		System.out.println(j+j);
+
+	}
+
+	
+	
+
+
+
+
+	
+	}
+
+
+

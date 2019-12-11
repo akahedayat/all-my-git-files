@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Function]" parallel="tests">
+  <test thread-count="2" name="login(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tstNG.data_provider">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="f" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- tstNG.data_provider -->
+    </classes>
+  </test> <!-- login(failed) -->
+</suite> <!-- Failed suite [Function] -->
